@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+		android:id="@+id/textviev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:text="@string/text_view"
+        android:textColor="@color/text_viwe" 
+		android:textSize="20dp"
+	/>
+	<LinearLayout
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="50dp"
+    	android:orientation="vertical"
+    	android:padding="10dp">
+		
+		<EditText
+			android:id="@+id/edittext1"
+			android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+			android:inputType="number"
+			android:hint="@string/hint1"
+		/>
+		<EditText
+			android:id="@+id/edittext2"
+			android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+			android:inputType="number"
+			android:hint="@string/hint2"
+		/>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+		android:gravity="center_horizontal"
+    	>
+		
+		<Button
+			android:id="@+id/button"
+			android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+			android:hint="@string/button"
+			android:background="@color/text_viwe"
+			android:textColor="@color/begraund"
+			/>
+	</LinearLayout>
+
+    
+
+</LinearLayout>
